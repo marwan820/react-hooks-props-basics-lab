@@ -8,11 +8,16 @@ import user from "../data/user";
 console.log(user);
 
 function App() {
+
   return (
     <div>
       <NavBar />
       <Home />
-      <About />
+      <About 
+      github = "https://github.com/liza" 
+      linkedin = "https://www.linkedin.com/in/liza/" />
+    
+      
     </div>
   );
 }
